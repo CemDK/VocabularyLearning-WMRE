@@ -2,6 +2,7 @@ This displays Vocabulary inside the vocab.json in your AltspaceVR world.
 You can add 3D-Models for these vocabulary items.
 A word is displayed above the 3D-Model. You can switch between the original Word, a translation and the phonetics.
 There also is a button, that when pressed, plays a sound file (pronunciation).
+![alt text](https://github.com/CemDK/VocabularyLearning-WMRE/blob/main/example_picure.png?jraw=true)
 
 ## Setup
 
