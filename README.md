@@ -12,13 +12,11 @@ There also is a button, that when pressed, plays a sound file (pronunciation).
 ## Build
 
 * Command line: `npm run build`.
-* Command line: `npm run debug-watch` if you want to change the code and see your changes immediately
-* VSCode: `Shift+Ctrl+B`, then select 'build VocabularyLearning-WMRE'.
 
 ## Run
 
 * Command line: `npm start`.
-* VSCode: Switch to the 'Run' tab (`Ctrl+Shift+D` will open it), select 'Launch VocabularyLearning-WMRE project' from the dropdown at the top, and then `F5` to start it.
+* Command line: `npm run debug-watch` if you want to change the code and see your changes immediately
 
 MRE apps are NodeJS servers. They operate akin to a web server. When you start your MRE, it won't do much until you connect to it from a client application like AltspaceVR or the MRETestBed.
 
