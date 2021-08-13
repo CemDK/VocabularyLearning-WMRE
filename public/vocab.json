@@ -1,0 +1,462 @@
+{
+    "chillipepper": {
+        "displayName": "Scharfer Chilli",
+        "translation": "Acı biber",
+        "resourceName": "chillipepper.glb",
+        "phonetics": "adʒɯ bibɛɾ̥",
+        "pronunciation": "chillipepper.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.01,
+            "y": 0.01,
+            "z": 0.01
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "position": {
+            "x": 5.5,
+            "y": 0,
+            "z": 13.5
+        }
+    },
+    "broccoli": {
+        "displayName": "Brokkoli",
+        "translation": "Brokoli",
+        "resourceName": "broccoli.glb",
+        "phonetics": "bɾokʰoli",
+        "pronunciation": "broccoli.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.04,
+            "y": 0.04,
+            "z": 0.04
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "position": {
+            "x": 14,
+            "y": 0,
+            "z": 13.5
+        }
+    },
+    "garlic": {
+        "displayName": "Knoblauch",
+        "translation": "Sarımsak",
+        "resourceName": "garlic.glb",
+        "phonetics": "saɾɯmsak",
+        "pronunciation": "garlic.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.06,
+            "y": 0.06,
+            "z": 0.06
+        },
+        "rotation": {
+            "x": 0,
+            "y": 22,
+            "z": 0
+        },
+        "position": {
+            "x": 19,
+            "y": 0,
+            "z": 13 
+        }
+    },
+    "leek": {
+        "displayName": "Lauch",
+        "translation": "Pırasa",
+        "resourceName": "chillipepper.glb",
+        "phonetics": "pʰɯɾasa",
+        "pronunciation": "leek.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.01,
+            "y": 0.01,
+            "z": 0.01
+        },
+        "rotation": {
+            "x": 0,
+            "y": 60,
+            "z": 0
+        },
+        "position": {
+            "x": 22.5,
+            "y": 0,
+            "z": 11 
+        }
+    },
+    "cabbage": {
+        "displayName": "Kohl",
+        "translation": "Lahana",
+        "resourceName": "cabbage.glb",
+        "phonetics": "ʎa̟hana",
+        "pronunciation": "cabbage.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.04,
+            "y": 0.04,
+            "z": 0.04
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "position": {
+            "x": 24,
+            "y": 0,
+            "z": 8.5
+        }
+    },
+    "peas": {
+        "displayName": "Erbsen",
+        "translation": "Bezelye",
+        "resourceName": "peas.glb",
+        "phonetics": "bezɛlje",
+        "pronunciation": "peas.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.009,
+            "y": 0.009,
+            "z": 0.009
+        },
+        "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+        },
+        "position": {
+            "x": 25.5,
+            "y": 0,
+            "z": 3.5
+        }
+    },
+    "cheese": {
+        "displayName": "Käse",
+        "translation": "Peynir",
+        "resourceName": "cheese.glb",
+        "phonetics": "pʰɛjniɾ̥",
+        "pronunciation": "cheese.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 2,
+            "y": 2,
+            "z": 2
+        },
+        "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+        },
+        "position": {
+            "x": 30,
+            "y": 0,
+            "z": 3.5
+        }
+    },
+    "zucchini": {
+        "displayName": "Zucchini",
+        "translation": "Kabak",
+        "resourceName": "zucchini.glb",
+        "phonetics": "kʰabakʰ",
+        "pronunciation": "zucchini.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.04,
+            "y": 0.04,
+            "z": 0.04
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "position": {
+            "x": 29,
+            "y": 0,
+            "z": 8.5
+        }
+    },
+    "potatoe": {
+        "displayName": "Kartoffel",
+        "translation": "Patates",
+        "resourceName": "potatos.glb",
+        "phonetics": "pʰatʰatʰes",
+        "pronunciation": "potatoe.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.003,
+            "y": 0.003,
+            "z": 0.003
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "position": {
+            "x": 1,
+            "y": 0,
+            "z": 13.5
+        }
+    },
+    "onion": {
+        "displayName": "Zwiebel",
+        "translation": "Soğan",
+        "resourceName": "onion.glb",
+        "phonetics": "soan",
+        "pronunciation": "onion.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.03,
+            "y": 0.03,
+            "z": 0.03
+        },
+        "rotation": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+        },
+        "position": {
+            "x": 8,
+            "y": 0,
+            "z": 15.5
+        }
+    },
+    "banana": {
+        "displayName": "Banane",
+        "translation": "Muz",
+        "resourceName": "banana.glb",
+        "phonetics": "muz",
+        "pronunciation": "banana.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.007,
+            "y": 0.007,
+            "z": 0.007
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+        },
+        "position": {
+            "x": 13,
+            "y": 0,
+            "z": 17
+        }
+    },
+    "pear": {
+        "displayName": "Birne",
+        "translation": "Armut",
+        "resourceName": "pear.glb",
+        "phonetics": "aɾmutʰ",
+        "pronunciation": "pear.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.04,
+            "y": 0.04,
+            "z": 0.04
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+        },
+        "position": {
+            "x": 13,
+            "y": 0,
+            "z": 15
+        }
+    },
+    "carrot": {
+        "displayName": "Karotten",
+        "translation": "Havuç",
+        "resourceName": "carrot.glb",
+        "phonetics": "haʋutʃʰ",
+        "pronunciation": "carrot.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.15,
+            "y": 0.15,
+            "z": 0.15
+        },
+        "rotation": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+        },
+        "position": {
+            "x": 8,
+            "y": 0,
+            "z": 6
+        }
+    },
+    "milk": {
+        "displayName": "Milch",
+        "translation": "Süt",
+        "resourceName": "milk.glb",
+        "phonetics": "sytʰ",
+        "pronunciation": "milk.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.6,
+            "y": 0.6,
+            "z": 0.6 
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+        },
+        "position": {
+            "x": 13,
+            "y": 0,
+            "z": 6
+        }
+    },
+    "salt": {
+        "displayName": "Salz",
+        "translation": "Tuz",
+        "resourceName": "salt.glb",
+        "phonetics": "tʰuz",
+        "pronunciation": "salt.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.9,
+            "y": 0.9,
+            "z": 0.9
+        },
+        "rotation": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+        },
+        "position": {
+            "x": 8,
+            "y": 0,
+            "z": 2
+        }
+    },
+    "orange": {
+        "displayName": "Orange",
+        "translation": "Portakal",
+        "resourceName": "orange.glb",
+        "phonetics": "pʰoɾtʰakʰa̟ʎ",
+        "pronunciation": "orange.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 2.03,
+            "y": 2.03,
+            "z": 2.03
+        },
+        "rotation": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+        },
+        "position": {
+            "x": 13,
+            "y": 0,
+            "z": 2
+        }
+    },
+    "apple": {
+        "displayName": "Apfel",
+        "translation": "Elma",
+        "resourceName": "apple.glb",
+        "phonetics": "elma",
+        "pronunciation": "apple.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.2,
+            "y": 0.2,
+            "z": 0.2
+        },
+        "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+        },
+        "position": {
+            "x": 2,
+            "y": 0,
+            "z": 8.5
+        }
+    },
+    "egg": {
+        "displayName": "Ei",
+        "translation": "Yumurta",
+        "resourceName": "eggs.glb",
+        "phonetics": "ju̟muɾtʰa",
+        "pronunciation": "eggs.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 3,
+            "y": 3,
+            "z": 3
+        },
+        "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+        },
+        "position": {
+            "x": 6,
+            "y": 0,
+            "z": 8.5
+        }
+    },
+    "flour": {
+        "displayName": "Mehl",
+        "translation": "Un",
+        "resourceName": "flour.glb",
+        "phonetics": "un",
+        "pronunciation": "flour.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 0.71,
+            "y": 0.71,
+            "z": 0.71
+        },
+        "rotation": {
+            "x": 0,
+            "y": 180,
+            "z": 0
+        },
+        "position": {
+            "x": 15,
+            "y": 0,
+            "z": 8.5
+        }
+    },
+    "blackpepper": {
+        "displayName": "Schwarzer Pfeffer",
+        "translation": "Karabiber",
+        "resourceName": "blackpepper.glb",
+        "phonetics": "kʰaɾabibɛɾ̥",
+        "pronunciation": "blackpepper.mp3",
+        "state": "initial",
+        "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        },
+        "rotation": {
+            "x": 0,
+            "y": -120,
+            "z": 0
+        },
+        "position": {
+            "x": 19,
+            "y": 0,
+            "z": 6
+        }
+    }
+}

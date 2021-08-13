@@ -1,0 +1,7 @@
+{
+	"name": "VocabularyLearning-WMRE",
+	"author": "CemDK",
+	"license": "MIT",
+	"repositoryUrl": "https://github.com/CemDK/VocabularyLearning-WMRE",
+	"optionalPermissions": ["user-interaction"]
+}
