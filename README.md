@@ -2,8 +2,8 @@ This displays Vocabulary inside the vocab.json in your AltspaceVR world.
 You can add 3D-Models for these vocabulary items.
 A word is displayed above the 3D-Model. You can switch between the original Word, a translation and the phonetics.
 There also is a button, that when pressed, plays a sound file (pronunciation).
-![alt text](https://github.com/CemDK/VocabularyLearning-WMRE/blob/main/public/example_picture.png?jraw=true)
 [Example](public/example_picture.png)
+
 ## Setup
 
 * Open a command prompt to this sample's folder and run `npm install`. Keep the command prompt open if you wish to follow the command-oriented instructions that follow.

@@ -1,5 +1,7 @@
 FROM node:10.16-alpine
 WORKDIR /opt/mre
+ENV PORT=80
+ENV BASE_URL=http://ankaramarkt.openode.io/
 
 COPY package*.json ./
 RUN ["npm", "install", "--unsafe-perm"]
@@ -12,3 +14,4 @@ COPY public ./public/
 
 EXPOSE 3901/tcp
 CMD ["npm", "start"]
+
