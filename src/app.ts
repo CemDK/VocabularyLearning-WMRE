@@ -70,7 +70,6 @@ export default class SetupMarket {
 		// The delay value below is in milliseconds so 1000 is a one second delay.
 		// You may need to increase the delay or be able to decrease it depending
 		// on the speed of your PC.
-		console.log("Hello World");
 		const delay = 1000;
 		const argv = process.execArgv.join();
 		const isDebug = argv.includes('inspect') || argv.includes('debug');
@@ -95,8 +94,9 @@ export default class SetupMarket {
 	// if async is required, next line becomes private startedImpl = async () => {
 	private startedImpl = async () => {
 		// Preload all the models and sounds
-		await this.loadVocabulary();
-		await this.loadSounds();
+		//await this.loadVocabulary();
+		//await this.loadSounds();
+		await this.loadAssets();
 		this.showVocabulary();
 	}
 
@@ -243,39 +243,19 @@ export default class SetupMarket {
 	/**
 	 * Preload all resources. This makes instantiating them faster and more efficient.
 	 */
-	private loadVocabulary() {
-		// Loop over the vocab database, preloading each resource.
-		// Return a promise of all the in-progress load promises. This
-		// allows the caller to wait until everything is done preloading
-		// before continuing.
+	private loadAssets(){
 		return Promise.all(
 			Object.keys(VocabDatabase).map(vocabId => {
 				const vocabRecord = VocabDatabase[vocabId];
-				if (vocabRecord.resourceName) {
-					return this.assets.loadGltf(vocabRecord.resourceName)
-						.then(assets => {
-							this.prefabs[vocabId] = assets.find(a => a.prefab !== null) as MRE.Prefab;
-						})
-						.catch(e => MRE.log.error("shit... app", e));
-				} else {
-					return Promise.resolve();
-				}
-			}));
+				let uri = vocabRecord.pronunciation;
+				this.sounds[vocabId] = this.assets.createSound(vocabId, { uri: uri})
+				return this.assets.loadGltf(vocabRecord.resourceName)
+					.then(assets => {
+						this.prefabs[vocabId] = assets.find(a => a.prefab !== null) as MRE.Prefab;
+					})
+					.catch(e => MRE.log.error("shit... app", e));
+		}));
 	}
-
-	private loadSounds() {
-		console.log("Loading sounds...")
-		return Promise.all(
-			Object.keys(VocabDatabase).map(vocabId => {
-				const vocabRecord = VocabDatabase[vocabId];
-				console.log(vocabRecord.pronunciation);
-				console.log(this.baseDir,'/',vocabRecord.pronunciation);
-				let uri = this.baseDir +'/'+ vocabRecord.pronunciation;
-				console.log(uri);
-				return this.sounds[vocabId] = this.assets.createSound(vocabId, { uri: uri})
-			})
-		);
-    }
 
 	private changeState(vocabId: string, userId: MRE.Guid, textLabel: MRE.Actor) {
 		const vocabRecord = VocabDatabase[vocabId];
